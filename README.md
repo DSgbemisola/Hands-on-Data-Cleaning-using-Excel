@@ -66,6 +66,78 @@ Note: Don’t change ‘jcb’ spelling when doing the spell check. We will need
 
 ![image](https://github.com/user-attachments/assets/de573122-223d-4801-ad7b-5be977abd810)
 
+# Task E: Use the PROPER function to change text from upper case to proper case
+
+1. Select row 2, then right-click it and choose Insert Rows.
+2. In cell A2, type =PROPER(A1) and press Enter.
+3. Hover over the bottom-right corner of cell A2, and drag the Fill Handle across to the last column.
+   If dragging across is too difficult with the mouse, then select the cells in the row 2 using SHIFT+RIGHT ARROW, then press F2 to put the cursor focus back in cell A2, 
+   then hold CTRL while you press Enter.
+4. Select row 2, then press CTRL+C.
+5. Select row 1, Right-click and choose Paste Options>Values.
+6. Select row 2, right-click it and choose Delete Rows.
+
+# Task F: Use the UPPER function to change text from proper case to upper case
+
+1. Select column AG (Generation). Then right-click and choose Insert Columns. In cell AG1, type Generation.
+2. In cell AG2, type =UPPER(AH2) and press Enter.
+3. Hover over the bottom-right corner of cell AG2 and double-click the Fill Handle.
+4. Select column AG, then press CTRL+C.
+5. Select column AH, right-click and choose Paste Options>Values.
+6. Select column AG, right-click it and choose Delete Columns.
+
+# Task G: Use the LOWER function to change text from proper case to lower case
+
+1. Select column AC (T_Type). Then right-click and choose Insert Columns. In cell AC1, type T_Type.
+2. In cell AC2, type =LOWER(AD2) and press Enter.
+3. Hover over the bottom-right corner of cell AC2 and double-click the Fill Handle.
+4. Select column AC, then press CTRL+C.
+5. Select column AD, right-click and choose Paste Options>Values.
+6. Select column AC, right-click it and choose Delete Columns.
+
+# Task H: Change date formatting
+
+1. Select column Z (Order_Ship_Date).
+2. On the Home tab, in the Number group click Number Format> More Number Formats.
+3. In the Category list, select Date.
+4. In the Format Cells box, under Locale, select English (United States).
+5. Under Type, select Wednesday, March 14, 2012 and click OK.
+
+![image](https://github.com/user-attachments/assets/1904808e-b95a-4d07-9f8e-16dfcf2fa825)
+
+# Task I: Use Find & Replace to trim whitespace
+
+1. Click CTRL+HOME.
+2. Select all the data using CTRL+SHIFT+END.
+3. On the Home tab, click Find & Select, then Replace.
+4. In Find what, type 2 spaces. In Replace with, type 1 space.
+5. Click Find All, then click Replace All.
+6. Click the Close icon.
+
+# Task J: Use the Flash Fill feature to clean data:
+
+1. Select column A (Cust_Name), right-click and choose Insert Columns.
+2. In cell A1 type Customer_Name and press Enter.
+3. In cell A2, type Mr. Allen Perl and press Enter.
+4. Select column A (Customer_Name), on the Data tab, click Flash Fill.
+5. Click Undo to undo this step.
+
+- If you are using the desktop version of Excel, you could use the ‘Text to Columns’ feature to perform this next task.
+- If you are using ‘Excel for the web’ (the online version of Excel), the ‘Text to Columns’ feature is not available, but you can achieve the same results using functions, 
+  as shown in the steps below.
+# Task k: Use LEFT, RIGHT, LEN, and SEARCH functions to clean data:
+
+1. Select column A (Cust_Name), right-click and choose Insert Columns.
+2. Select column A again, right-click and choose Insert Columns.
+3. In cell A1, type Customer_Firstname and in cell B1, type Customer_Lastname.
+4. Click C1, then on the Home tab, click Format Painter, then drag across to A1 and B1.
+5. Double-click the divider between columns A and B.
+6. In cell A2 type =LEFT(C2, SEARCH(" ",C2,1)) and press Enter.
+7. In cell B2 type =RIGHT(C2,LEN(C2)-SEARCH(" ",C2,1)) and press Enter.
+8. Double-click the Fill Handle on cell A2.
+9. Double-click the Fill Handle on cell B2.
+
+
 
 
 
