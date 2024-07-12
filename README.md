@@ -63,8 +63,9 @@ Note: Don’t change ‘jcb’ spelling when doing the spell check. We will need
 3. Click Replace.
 3. In Replace with, type JCB, click Replace All, and then click the Close icon.
 4. On the Home tab, click Conditional Formatting> Clear Rules> Clear Rules from Entire Sheet.
-   
-![image](https://github.com/user-attachments/assets/e550d198-839e-4dce-83e0-8f16987daf71)
+
+![image](https://github.com/user-attachments/assets/de573122-223d-4801-ad7b-5be977abd810)
+
 
 
 
